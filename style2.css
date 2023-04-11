@@ -1,0 +1,146 @@
+#container > div {
+    margin: 10px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#letter-c {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: black transparent black black;
+    background-color: transparent;
+    border-radius: 10px;
+}
+#letter-e {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: black;
+}
+#letter-e::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 40px;
+    height: 10px;
+    background: black;
+}
+#letter-f {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-width: 10px 0 0 10px;
+    border-style: solid;
+    border-color: black black black black;
+}
+#letter-f::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    left: 0;
+    top: 10px;
+    background: black;
+}
+#letter-n {
+    position: relative;
+    height: 50px;
+    width: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 10px 0 10px;
+}
+
+#letter-n::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 58px;
+    transform-origin: 5px 14px 0;
+    transform: rotate(-43deg);
+    background: black;
+}
+
+#letter-o {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 10px solid black;
+}
+#letter-r {
+    position: relative;
+    
+}
+#letter-r {
+    position: relative;
+    width: 40px;
+    height: 50px;
+    border-width: 0 0 0 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+#letter-r::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    height: 10px;
+    width: 30px;
+    background: transparent;
+    border-radius: 0 12.5px 12.5px 0;
+    border: 10px solid black;
+}
+
+#letter-r::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 30px;
+    border-radius: 0 12.5px 0 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+}
+#letter-t {
+    position: relative;
+    width: 0px;
+    height: 40px;
+    border-width: 10px 0 0 10px;
+    border-style: solid;
+    border-color: black black black black;
+}
+#letter-t::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 40px;
+    left: -10px;
+    top : -32px;
+    border-width: 10px 0 0 10px;
+    border-style: solid;
+    border-color: black black black black;
+    transform: rotateZ(90deg);
+    
+}
+#letter-u {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: black transparent black black;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(270deg);
+}
